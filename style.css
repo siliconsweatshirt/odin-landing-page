@@ -11,6 +11,7 @@ body {
 }
 .all {
     height: 100vh;
+    width: 100vw;
 }
 img {
     height: 50px;
@@ -88,6 +89,29 @@ img {
 }
 
 /* section B selectors */
+
+.b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.b-main {
+    display: flex;
+    justify-content: center;
+}
+.b h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 27px;
+    height: 24%;
+    flex: 1 1 auto;
+}
+.b-image-and-subtext-holder {
+    flex: 0 1 auto;
+    height: 200px;
+}
 /* section C selectors */
 /* section D selectors */
 /* section E selectors */
