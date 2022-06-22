@@ -44,26 +44,26 @@ body {
     justify-content: space-between;
     color: white;
 }
-.main-container {
+.hero-and-img-container {
     display: flex;
     flex: 0 0 auto;
     height: 38%;
     width: 80%;
 }
-.statement-container {
+.hero-container {
     color: white;
     display: flex;
     flex-direction: column;
 }
-.statement-container p {
+.hero-container p {
     flex: 1 1 auto;
 }
-.statement-container h1 {
+.hero-container h1 {
     font-size: 48px;
     font-weight: 900;
     flex: 0 0 auto;
 }
-.statement-container button {
+.hero-container button {
     flex: 0 0 auto;
     height: 30px;
     width: 60px;
