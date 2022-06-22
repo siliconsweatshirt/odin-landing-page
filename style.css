@@ -39,10 +39,16 @@ img {
     flex: 0 1 auto;
     justify-content: space-between;
     align-items: center;
+    color: white;
+}
+.a-header-logo {
+    font-size: 14px;
+    font-weight: bold;
 }
 .a-hero-and-image {
     display: flex;
     flex: 0 1 auto;
+    color: white;
 }
 
 /* section B selectors */
