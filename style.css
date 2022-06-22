@@ -18,20 +18,16 @@ body {
 
 .one {
     height: 28vh;
-    width: 100vw;
     background-color: #1f2937;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    align-items: center; 
 }
 .header-container {
     height: 20%;
-    width: 80%;
     display: flex;
     flex: 1 1 auto;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px 10px 0px;
 }
 .header-container h1{
     color: white;
@@ -43,12 +39,14 @@ body {
     list-style: none;
     justify-content: space-between;
     color: white;
+    gap: 8px;
 }
 .hero-and-img-container {
     display: flex;
     flex: 1 1 auto;
     height: 80%;
-    width: 80%;
+    width: 100%;
+    margin: 0px 90px;
 }
 .hero-container {
     color: white;
