@@ -1,4 +1,5 @@
-/* general selectors */
+/* general selectors ..................*/
+
 *,
 *::before,
 *::after {
@@ -7,8 +8,23 @@
 .primary {
     display: flex;
 }
-/* .one selectors */
+
+/* .one selectors .....................*/
+
+.one {
+    height: 25vh;
+    width: 100vw;
+}
 .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container h1{
+    color: white;
+    font-weight: 600;
+}
+.header-container ul {
     display: flex;
 }
 .main-container {
@@ -17,23 +33,46 @@
 .statement-container {
     display: flex;
 }
-/* .two selectors */
+
+/* .two selectors .....................*/
+
+.two {
+    height: 23vh;
+    width: 100vw;
+}
 .img-container {
     display: flex;
+
 }
-/* .three selectors */
+
+/* .three selectors ...................*/
+
+.three {
+    height: 22vh;
+    width: 100vw;
+}
 .quote {
     display: flex;
 }
-/* .four selectors */
+
+/* .four selectors ....................*/
+
+.four {
+    height: 20vh;
+    width: 100vw;
+}
 .call-to-action {
     display: flex;
 }
 .call-to-action .text {
     display: flex;
 }
-/* .five selectors */
+
+/* .five selectors ....................*/
+
 .five {
+    height: 10vh;
+    width: 100vw;
     justify-content: center;
     align-items: center;
 }
