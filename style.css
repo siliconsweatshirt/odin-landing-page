@@ -4,23 +4,36 @@
 *::after {
     font-family: Roboto;
 }
+.primary {
+    display: flex;
+}
 /* .one selectors */
-.one {
+.header-container {
+    display: flex;
+}
+.main-container {
+    display: flex;
+}
+.statement-container {
     display: flex;
 }
 /* .two selectors */
-.two {
+.img-container {
     display: flex;
 }
 /* .three selectors */
-.three {
+.quote {
     display: flex;
 }
 /* .four selectors */
-.four {
+.call-to-action {
+    display: flex;
+}
+.call-to-action .text {
     display: flex;
 }
 /* .five selectors */
 .five {
-    display: flex;
+    justify-content: center;
+    align-items: center;
 }
