@@ -1,0 +1,13 @@
+/* universal selectors */
+
+*,
+*::before,
+*::after {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* section A selectors */
+/* section B selectors */
+/* section C selectors */
+/* section D selectors */
+/* section E selectors */
