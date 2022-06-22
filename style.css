@@ -7,6 +7,10 @@
 }
 .primary {
     display: flex;
+    margin: 0px;
+}
+body {
+    margin: 0px;
 }
 
 /* .one selectors .....................*/
@@ -14,6 +18,7 @@
 .one {
     height: 25vh;
     width: 100vw;
+    background-color: #1f2937;
 }
 .header-container {
     display: flex;
@@ -50,6 +55,7 @@
 .three {
     height: 22vh;
     width: 100vw;
+    background-color: #e5e7eb;
 }
 .quote {
     display: flex;
@@ -73,6 +79,7 @@
 .five {
     height: 10vh;
     width: 100vw;
+    background-color: #1f2937;
     justify-content: center;
     align-items: center;
 }
