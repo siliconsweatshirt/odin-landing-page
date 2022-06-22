@@ -8,6 +8,13 @@
 }
 
 /* section A selectors */
+
+.a {
+    height: 26vh;
+    display: flex;
+    justify-content: center;
+}
+
 /* section B selectors */
 /* section C selectors */
 /* section D selectors */
