@@ -73,10 +73,16 @@ body {
 .two {
     height: 24vh;
     width: 100vw;
+    flex-direction: column;
+}
+.two h1 {
+    text-align: center;
+    flex: 1 1 auto;
 }
 .img-container {
     display: flex;
-
+    flex: 1 1 auto;
+    justify-content: center;
 }
 
 /* .three selectors ...................*/
