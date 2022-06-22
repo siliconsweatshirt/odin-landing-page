@@ -5,7 +5,22 @@
     font-family: Roboto;
 }
 /* .one selectors */
+.one {
+    display: flex;
+}
 /* .two selectors */
+.two {
+    display: flex;
+}
 /* .three selectors */
+.three {
+    display: flex;
+}
 /* .four selectors */
+.four {
+    display: flex;
+}
 /* .five selectors */
+.five {
+    display: flex;
+}
