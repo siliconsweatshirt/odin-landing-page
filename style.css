@@ -11,6 +11,7 @@
 }
 body {
     margin: 0px;
+    box-sizing: border-box;
 }
 
 /* .one selectors .....................*/
@@ -19,24 +20,41 @@ body {
     height: 25vh;
     width: 100vw;
     background-color: #1f2937;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .header-container {
+    height: 24px;
+    width: 80%;
     display: flex;
+    flex: 0 0 auto;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0px 10px 0px;
 }
 .header-container h1{
     color: white;
     font-weight: 600;
+    font-size: 22px;
 }
 .header-container ul {
     display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: white;
 }
 .main-container {
     display: flex;
+    flex: 0 0 auto;
+    height: 38%;
+    width: 80%;
 }
 .statement-container {
-    display: flex;
+    color: white;
+}
+.statement-container h1 {
+    font-size: 35px;
 }
 
 /* .two selectors .....................*/
