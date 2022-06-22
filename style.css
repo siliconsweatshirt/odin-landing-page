@@ -17,7 +17,7 @@ body {
 /* .one selectors .....................*/
 
 .one {
-    height: 25vh;
+    height: 26vh;
     width: 100vw;
     background-color: #1f2937;
     flex-direction: column;
@@ -52,15 +52,26 @@ body {
 }
 .statement-container {
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+.statement-container p {
+    flex: 1 1 auto;
 }
 .statement-container h1 {
-    font-size: 35px;
+    font-size: 48px;
+    font-weight: 900;
+    flex: 0 0 auto;
 }
-
+.statement-container button {
+    flex: 0 0 auto;
+    height: 30px;
+    width: 60px;
+}
 /* .two selectors .....................*/
 
 .two {
-    height: 23vh;
+    height: 24vh;
     width: 100vw;
 }
 .img-container {
@@ -71,9 +82,11 @@ body {
 /* .three selectors ...................*/
 
 .three {
-    height: 22vh;
+    height: 24vh;
     width: 100vw;
     background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
 }
 .quote {
     display: flex;
@@ -95,7 +108,7 @@ body {
 /* .five selectors ....................*/
 
 .five {
-    height: 10vh;
+    height: 6vh;
     width: 100vw;
     background-color: #1f2937;
     justify-content: center;
