@@ -22,17 +22,27 @@ img {
 .a {
     height: 26%;
     display: flex;
+    flex: 0 0 auto;
     justify-content: center;
     background-color: #1F2937;
 }
 .a-main {
-    height: fit-content;
     flex: 0 0 auto;
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: space-between;
+}
+.a-header {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: space-between;
     align-items: center;
+}
+.a-hero-and-image {
+    display: flex;
+    flex: 0 1 auto;
 }
 
 /* section B selectors */
