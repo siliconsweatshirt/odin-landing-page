@@ -44,6 +44,12 @@ img {
 .a-header-logo {
     font-size: 14px;
     font-weight: bold;
+    flex: 0 1 auto;
+}
+.a-header ul {
+    display: flex;
+    flex: 0 0 auto;
+    list-style: none;
 }
 .a-hero-and-image {
     display: flex;
