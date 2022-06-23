@@ -52,7 +52,7 @@ img {
     display: flex;
     flex: 0 0 auto;
     list-style: none;
-    gap: 18px;
+    gap: 24px;
 }
 .a-header ul li {
     font-size: 16px;
@@ -75,7 +75,7 @@ img {
     border-radius: 6px;
     border-color: #3882F6;
     height: 28px;
-    width: 80px;
+    width: 120px;
     flex: 0 0 auto;
 }
 .a-image {
