@@ -101,6 +101,7 @@ img {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 24%;
 }
 .b h1 {
     margin-bottom: 10px;
@@ -150,7 +151,8 @@ img {
 .c-quoted-person {
     flex: 1 1 auto;
     align-self: flex-end;
-    margin-right: 32px;
+    margin-right: 80px;
+    margin-top: 16px;
 }
 /* section D selectors */
 /* section E selectors */
