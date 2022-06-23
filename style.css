@@ -44,7 +44,7 @@ img {
     margin-bottom: 20px;
 }
 .a-header h1 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     flex: 0 1 auto;
 }
@@ -52,10 +52,11 @@ img {
     display: flex;
     flex: 0 0 auto;
     list-style: none;
-    gap: 14px;
+    gap: 18px;
 }
 .a-header ul li {
-    font-size: 14px;
+    font-size: 16px;
+    color: #E5E7EB;
 }
 .a-hero-and-image {
     display: flex;
@@ -122,5 +123,34 @@ img {
 }
 
 /* section C selectors */
+
+.c {
+    height: 22%;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-main {
+    flex: 0 1 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-quote {
+    font-size: 24px;
+    color: #1f2937;
+    flex: 1 1 auto;
+}
+.c-quote i {
+    font-weight: 0;
+}
+.c-quoted-person {
+    flex: 1 1 auto;
+    align-self: flex-end;
+    margin-right: 32px;
+}
 /* section D selectors */
 /* section E selectors */
