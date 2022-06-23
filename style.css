@@ -53,6 +53,7 @@ img {
     flex: 0 0 auto;
     list-style: none;
     gap: 24px;
+    margin-right: 36px;
 }
 .a-header ul li {
     font-size: 16px;
@@ -87,6 +88,7 @@ img {
     flex: 0 1 auto;
     height: 141.88px;
     width: auto;
+    border-radius: 50%;
 }
 
 /* section B selectors */
@@ -126,7 +128,7 @@ img {
 /* section C selectors */
 
 .c {
-    height: 22%;
+    height: 22vh;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
@@ -151,8 +153,57 @@ img {
 .c-quoted-person {
     flex: 1 1 auto;
     align-self: flex-end;
-    margin-right: 80px;
+    margin-right: 130px;
     margin-top: 16px;
 }
+
 /* section D selectors */
+
+.d {
+    display: flex;
+    height: 23%;
+    justify-content: center;
+    align-items: center;
+}
+.d-call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 78%;
+    justify-content: space-between;
+    height: 45%;
+}
+.d-text {
+    color: white;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.d-text h1 {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+.d-text p {
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.d-button button {
+    background: #3882F6;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 3px 12px 3px 12px;
+    margin-right: 40px;
+}
 /* section E selectors */
+
+.e {
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    background-color: #1f2937;
+    color: white;
+}
