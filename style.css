@@ -99,11 +99,12 @@ img {
 .b-main {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .b h1 {
     margin-bottom: 10px;
     margin-top: 10px;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 27px;
     height: 24%;
     flex: 1 1 auto;
@@ -111,7 +112,15 @@ img {
 .b-image-and-subtext-holder {
     flex: 0 1 auto;
     height: 200px;
+    width: 225px;
+    text-align: center;
 }
+.b-image-and-subtext-holder img {
+    width: 200px;
+    height: 130px;
+    border-radius: 50px;
+}
+
 /* section C selectors */
 /* section D selectors */
 /* section E selectors */
